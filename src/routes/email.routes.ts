@@ -3,7 +3,6 @@ import { transporter } from "../mail/transporter.js"
 import { EmailSchema } from "../schemas/email.schema.js"
 import { renderTemplates } from "../mail/templates.js"
 import { config } from "../config.js"
-import { de } from "zod/v4/locales"
 
 const router = Router()
 
