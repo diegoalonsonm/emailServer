@@ -1,6 +1,6 @@
 import fs from 'fs/promises'
 import path from 'path'
-import Handlebars, { template } from 'handlebars'
+import Handlebars from 'handlebars'
 import { renderMjml } from './mjml.js'
 
 const templatesPath = path.resolve(process.cwd(), 'templates')

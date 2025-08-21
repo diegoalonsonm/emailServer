@@ -1,7 +1,7 @@
 import express from 'express'
 import cors from 'cors'
 import morgan from 'morgan'
-import { config } from './config'
+import { config } from './config.js'
 import emailRoutes from './routes/email.routes.js'
 import { verifyTransport } from './mail/transporter.js'
 
